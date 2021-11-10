@@ -8,10 +8,9 @@ This repo is a companion repo to the [Use Modules from the Registry learn tutori
 # Code block
 The content below should be formatted as code-block
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+
+```hcl
+resource "null_resource" null {}
 ```
 
 
